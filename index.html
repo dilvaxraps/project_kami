@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .hero {
+            background: #007bff;
+            color: white;
+            padding: 60px 0;
+            position: relative;
+            overflow: hidden;
+        }
+        .icon-animation {
+            font-size: 50px;
+            position: absolute;
+            top: 20px;
+            animation: move 2s ease-in-out infinite alternate;
+        }
+        @keyframes move {
+            0% { transform: translateX(-10px); }
+            100% { transform: translateX(10px); }
+        }
+        .team-section {
+            background-color: #e9ecef;
+            padding: 40px 0;
+            position: relative;
+        }
+        .portfolio-item {
+            margin: 20px 0;
+        }
+        .card {
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            color: white; /* Mengubah warna teks menjadi putih untuk kontras */
+        }
+        .card-jenal {
+            background-color: rgba(0, 123, 255, 0.8); /* Biru dengan transparansi */
+        }
+        .card-salman {
+            background-color: rgba(40, 167, 69, 0.8); /* Hijau dengan transparansi */
+        }
+        .card-virgi {
+            background-color: rgba(255, 193, 7, 0.8); /* Kuning dengan transparansi */
+        }
+        .card-dilva {
+            background-color: rgba(220, 53, 69, 0.8); /* Merah dengan transparansi */
+        }
+        .card-icon {
+            font-size: 40px;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="hero text-center">
+        <i class="fas fa-star icon-animation"></i>
+        <h1>Selamat Datang di Portofolio Kami!</h1>
+        <p>Kami adalah tim kreatif yang siap membantu proyek Anda.</p>
+    </header>
+
+    <div class="container mt-5 team-section">
+        <h2 class="text-center">Tim Kami</h2>
+        <div class="row">
+            <div class="col-md-3 portfolio-item text-center">
+                <div class="card card-jenal">
+                    <div class="card-body">
+                        <i class="fas fa-paint-brush card-icon"></i>
+                        <h5 class="card-title">Jenal</h5>
+                        <p class="card-text">Desainer UI/UX dan pengembang web.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 portfolio-item text-center">
+                <div class="card card-salman">
+                    <div class="card-body">
+                        <i class="fas fa-code card-icon"></i>
+                        <h5 class="card-title">Salman</h5>
+                        <p class="card-text">Pengembang perangkat lunak dan ahli backend.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 portfolio-item text-center">
+                <div class="card card-virgi">
+                    <div class="card-body">
+                        <i class="fas fa-bullhorn card-icon"></i>
+                        <h5 class="card-title">Virgi</h5>
+                        <p class="card-text">Spesialis pemasaran digital dan SEO.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 portfolio-item text-center">
+                <div class="card card-dilva">
+                    <div class="card-body">
+                        <i class="fas fa-mobile-alt card-icon"></i>
+                        <h5 class="card-title">Dilva</h5>
+                        <p class="card-text">Pengembang aplikasi mobile dan frontend.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-center mt-5">
+        <p>&copy; 2024 Portofolio Tim Kami. Semua hak dilindungi.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
